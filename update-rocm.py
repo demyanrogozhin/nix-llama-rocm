@@ -10,7 +10,7 @@ import hashlib
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import UTC, datetime
 import sys
 import os
 import argparse
@@ -146,7 +146,7 @@ def update_sources(targets, platforms, output_file="rocm-sources.json"):
                 "sha256": sha256,
                 "version": version,
                 "filename": filename,
-                "updated": datetime.utcnow().isoformat() + "Z"
+                "updated": datetime.now(UTC).isoformat() + "Z"
             }
             
             print(f"  Version: {version}")
