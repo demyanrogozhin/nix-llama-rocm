@@ -5,21 +5,21 @@
       "sha256": "00a4d8aa37d5487a9ef7c60618136aa522a54c7520c2f0bbaa952763e6c1619e",
       "version": "7.10.0a20251120",
       "filename": "therock-dist-linux-gfx110X-dgpu-7.10.0a20251120.tar.gz",
-      "updated": "2025-12-19T13:58:40.170194Z"
+      "updated": "2026-01-19T06:09:47.762506Z"
     },
     "gfx1151": {
-      "url": "https://therock-nightly-tarball.s3.amazonaws.com/therock-dist-linux-gfx1151-7.11.0a20251219.tar.gz",
-      "sha256": "51136dfd5123b60db4ebc491151e465f0436798fa9a39e283d26a597fc9eeb50",
-      "version": "7.11.0a20251219",
-      "filename": "therock-dist-linux-gfx1151-7.11.0a20251219.tar.gz",
-      "updated": "2025-12-19T13:59:52.141192Z"
+      "url": "https://therock-nightly-tarball.s3.amazonaws.com/therock-dist-linux-gfx1151-7.11.0a20260118.tar.gz",
+      "sha256": "fac934b6c1907247e95348acaa7dd2fb697ffccd33e85196c65b5173ae78a8c4",
+      "version": "7.11.0a20260118",
+      "filename": "therock-dist-linux-gfx1151-7.11.0a20260118.tar.gz",
+      "updated": "2026-01-19T06:14:21.880999Z"
     },
     "gfx120X": {
-      "url": "https://therock-nightly-tarball.s3.amazonaws.com/therock-dist-linux-gfx120X-all-7.11.0a20251219.tar.gz",
-      "sha256": "2c42d813d7749f70168ed7af546922459ae1121c901cbe7f47070fe22a898d10",
-      "version": "7.11.0a20251219",
-      "filename": "therock-dist-linux-gfx120X-all-7.11.0a20251219.tar.gz",
-      "updated": "2025-12-19T14:01:13.231741Z"
+      "url": "https://therock-nightly-tarball.s3.amazonaws.com/therock-dist-linux-gfx120X-all-7.11.0a20260118.tar.gz",
+      "sha256": "3edb91f71de1ee355265300e3dab94878079c6782f9103a2d3c349433795c77d",
+      "version": "7.11.0a20260118",
+      "filename": "therock-dist-linux-gfx120X-all-7.11.0a20260118.tar.gz",
+      "updated": "2026-01-19T06:21:11.674607Z"
     }
   }
 }

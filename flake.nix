@@ -4,7 +4,7 @@
   inputs = {
     # nixpkgs.url = "github:LunNova/nixpkgs/lunnova/rocm-6.4.x";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+    # chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
 
     flake-utils.url = "github:numtide/flake-utils";
     disko = {
@@ -167,12 +167,12 @@
           ...
         }: {
           imports = [
-            inputs.chaotic.nixosModules.default
+            # inputs.chaotic.nixosModules.default
             inputs.disko.nixosModules.disko
           ];
           nixpkgs.overlays = [
             self.overlays.default
-            inputs.chaotic.overlays.default
+            # inputs.chaotic.overlays.default
           ];
         };
         rpc-server = import ./modules/rpc-server.nix;
@@ -206,7 +206,7 @@
           inherit system;
           overlays = [
             self.overlays.default
-            inputs.chaotic.overlays.default
+            # inputs.chaotic.overlays.default
           ];
         };
 
@@ -324,7 +324,7 @@
           inherit system;
           overlays = [
             self.overlays.default
-            inputs.chaotic.overlays.default
+            # inputs.chaotic.overlays.default
           ];
         };
       in {

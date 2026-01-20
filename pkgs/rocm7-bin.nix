@@ -31,6 +31,9 @@ in
         zlib
         ncurses
         ocl-icd
+        libtool
+        expat
+        numactl
       ];
 
       autoPatchelfIgnoreMissingDeps = [
@@ -44,6 +47,7 @@ in
         mkdir -p $out
         cp -r * $out/
         chmod -R u+w $out
+        find $out -type l ! -exec test -e {} \; -delete
         find $out -type f -name "*.so*" -exec chmod 755 {} \; 2>/dev/null || true
         find $out/bin -type f -exec chmod 755 {} \; 2>/dev/null || true
       '';
