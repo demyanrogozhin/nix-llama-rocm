@@ -37,7 +37,7 @@
     rocmSources = builtins.fromJSON (builtins.readFile ./rocm-sources.json);
 
     # Define ROCm targets we support
-    targets = ["gfx1201"];
+    targets = ["gfx120X"];
   in
     # Overlay output
     {
