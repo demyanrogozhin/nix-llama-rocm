@@ -151,8 +151,8 @@
           llamacpp-rocm = llamacppPackages;
 
           # Binary packages for each target
-          llamacpp-rocm-bin-gfx1151 = prev.callPackage ./pkgs/llamacpp-rocm-bin.nix {
-            gfxTarget = "gfx1151";
+          llamacpp-rocm-bin-gfx1201 = prev.callPackage ./pkgs/llamacpp-rocm-bin.nix {
+            gfxTarget = "gfx1201";
           };
 
           # Ryzenadj curve optimizer test script
