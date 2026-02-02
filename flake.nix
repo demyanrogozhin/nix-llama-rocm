@@ -145,7 +145,7 @@
                 localGpuTargets = targets;
               };
               rocsparse = rocmPrev.rocsparse.override {
-                gpuTargets = 'gfx1201;';
+                gpuTargets = ["gfx1201"];
               };
             }
           );
