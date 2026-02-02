@@ -38,6 +38,7 @@
 
     # Define ROCm targets we support
     targets = ["gfx120X"];
+    myGpuTargets = ["gfx1201"];
   in
     # Overlay output
     {
@@ -142,10 +143,13 @@
           rocmPackages = prev.rocmPackages.overrideScope (
             rocmFinal: rocmPrev: {
               clr = rocmPrev.clr.override {
-                localGpuTargets = targets;
+                localGpuTargets = myGpuTargets;
               };
               rocsparse = rocmPrev.rocsparse.override {
-                gpuTargets = ["gfx1201"];
+                gpuTargets = myGpuTargets;
+              };
+              rocblas = rocmPrev.rocblas.override {
+                gpuTargets = myGpuTargets;
               };
             }
           );
