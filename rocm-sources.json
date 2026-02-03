@@ -14,12 +14,12 @@
       "filename": "therock-dist-linux-gfx1151-7.11.0a20260118.tar.gz",
       "updated": "2026-01-19T06:14:21.880999Z"
     },
-    "gfx120X": {
-      "url": "https://repo.amd.com/rocm/tarball/therock-dist-linux-gfx120X-all-7.10.0.tar.gz",
-      "sha256": "2c0e20e1d50368d9661024ad346a545912ea4b70f1d0a7d3c92f8ea6f5a43f67",
-      "version": "7.10.0",
-      "filename": "therock-dist-linux-gfx120X-all-7.10.0.tar.gz",
-      "updated": "2025-10-10T08:06:50.243803Z"
+    "gfx120X": {     
+      "url": "https://therock-nightly-tarball.s3.amazonaws.com/therock-dist-linux-gfx120X-all-7.12.0a20260202.tar.gz",
+      "sha256": "1c42d813d7749f70168ed7af546922459ae1121c901cbe7f47070fe22a898d10",
+      "version": "7.12.0a20260202",
+      "filename": "therock-dist-linux-gfx120X-all-7.12.0a20260202.tar.gz",
+      "updated": "2026-02-02T08:06:50.243803Z"
     }
   }
 }
