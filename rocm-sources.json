@@ -15,11 +15,11 @@
       "updated": "2026-01-19T06:14:21.880999Z"
     },
     "gfx120X": {
-      "url": "https://therock-nightly-tarball.s3.amazonaws.com/therock-dist-linux-gfx120X-all-ADHOCBUILD-7.0.0rc20250625.tar.gz",
-      "sha256": "19e836e54042d2809e5e7cbdb01d1fcc481900c05581b2a47fd177c898d66e62",
-      "version": "7.0.0rc20250625",
-      "filename": "therock-dist-linux-gfx120X-all-ADHOCBUILD-7.0.0rc20250625.tar.gz",
-      "updated": "2025-08-12T08:06:50.243803Z"
+      "url": "https://repo.amd.com/rocm/tarball/therock-dist-linux-gfx120X-all-7.10.0.tar.gz",
+      "sha256": "2c0e20e1d50368d9661024ad346a545912ea4b70f1d0a7d3c92f8ea6f5a43f67",
+      "version": "7.10.0",
+      "filename": "therock-dist-linux-gfx120X-all-7.10.0.tar.gz",
+      "updated": "2025-10-10T08:06:50.243803Z"
     }
   }
 }
