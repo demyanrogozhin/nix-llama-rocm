@@ -16,7 +16,7 @@
       flake = false;
     };
     rocwmma = {
-      url = "github:ROCm/rocWMMA";
+      url = "github:ROCm/rocWMMA?ref=release/rocm-rel-7.0.2.1";
       flake = false;
     };
     ec-su-axb35 = {
