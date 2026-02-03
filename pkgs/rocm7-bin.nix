@@ -39,6 +39,7 @@ in
       autoPatchelfIgnoreMissingDeps = [
         "libtest_linking_lib1.so"
         "libtest_linking_lib2.so"
+        "libamdhip64.so.6"
       ];
 
       unpackPhase = "tar -xzf $src";
