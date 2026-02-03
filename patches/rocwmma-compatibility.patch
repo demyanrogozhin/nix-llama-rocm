@@ -1,5 +1,5 @@
 diff --git a/ggml/src/ggml-cuda/vendors/hip.h b/ggml/src/ggml-cuda/vendors/hip.h
-index 5cc1b5431..881647ae7 100644
+index 5cc1b5431..xxxxxxxx 100644
 --- a/ggml/src/ggml-cuda/vendors/hip.h
 +++ b/ggml/src/ggml-cuda/vendors/hip.h
 @@ -28,9 +28,15 @@
