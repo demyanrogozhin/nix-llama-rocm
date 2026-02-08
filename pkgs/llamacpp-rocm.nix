@@ -6,7 +6,7 @@
 , rocmClangWrapper
 , rocwmma ? null
 , enableRocwmma ? false
-, enableHipBlasLt ? false
+, enableHipBlasLt ? true
 }:
 
 let
